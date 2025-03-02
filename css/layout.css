@@ -1,0 +1,133 @@
+
+
+/* MENU */
+#bt1 {
+    color: #BB8588;
+}
+
+#bt2 {
+    color: #525174;
+}
+
+#bt3 {
+    color: #348AA7;
+}
+
+#exerciseResults{
+    display: flex;
+    justify-content: left;
+}
+
+
+/* EXERCISE 1  */
+#idNaw{
+    display: flex;
+
+}
+
+#idNaw h1{
+    color: #216869;
+}
+
+#idNaw ul{
+    list-style-type: none;
+}
+
+#idNaw ul li{
+    margin: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* EXERCISE 2 */
+#exerciseResult1 h2 {
+    color: darkslateblue;
+}
+
+#exerciseResult2 table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+#exerciseResult2 td {
+    border: 1px solid black;
+}
+
+#exerciseResult2 th {
+    border: 1px solid black;
+}
+
+#exerciseResult2 tr:first-child{
+  height: 20px;
+}
+
+.columnMenu1{
+    text-align: center;
+}
+
+.column1 {
+    text-align: left;
+    width: 20px;
+}
+
+.column2 {
+    text-align: left;
+    width: 170px;
+}
+
+.column3 {
+    text-align: right;
+    width: 150px;
+}
+
+.column4 {
+    text-align: right;
+    width: 100px;
+}
+
+.squares {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+
+/* EXERCISE 3 */
+#square1 {
+    background-color: #F6ADC7;
+}
+
+#square2 {
+    background-color: #412E47;
+}
+
+#square3 {
+    background-color: #633D60;
+}
+
+#square4 {
+    background-color: #A05880;
+}
+
+#square5 {
+    background-color: #ED80A7;
+}
+
+#row1 {
+    display: flex;
+    justify-content: center;
+}
+
+#row2 {
+    display: flex;
+    justify-content: center;
+}
+
+#squaresImg {
+    width: 100px;
+    height: 100px;
+}
+
+
+
