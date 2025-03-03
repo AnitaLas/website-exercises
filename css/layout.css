@@ -1,3 +1,6 @@
+*{
+box-sizing: border-box;
+}
 
 
 /* MENU */
@@ -13,27 +16,32 @@
     color: #348AA7;
 }
 
-#exerciseResults{
+main {
     display: flex;
+}
+
+#exerciseResults {
+    flex: 3;
+    padding: 20px;
     justify-content: left;
 }
 
 
 /* EXERCISE 1  */
-#idNaw{
-    display: flex;
-
+#idNaw {
+    flex: 1;
+    padding: 20px;
 }
 
-#idNaw h1{
+#idNaw h1 {
     color: #216869;
 }
 
-#idNaw ul{
+#idNaw ul {
     list-style-type: none;
 }
 
-#idNaw ul li{
+#idNaw ul li {
     margin: 20px;
     text-decoration: none;
     font-weight: bold;
@@ -48,6 +56,8 @@
 #exerciseResult2 table {
     border-collapse: collapse;
     border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #exerciseResult2 td {
@@ -58,11 +68,11 @@
     border: 1px solid black;
 }
 
-#exerciseResult2 tr:first-child{
-  height: 20px;
+#exerciseResult2 tr:first-child {
+    height: 20px;
 }
 
-.columnMenu1{
+.columnMenu1 {
     text-align: center;
 }
 
